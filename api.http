@@ -1,0 +1,27 @@
+########################################
+# COURSES
+########################################
+
+### @name getCourses
+GET /courses HTTP/1.1
+Host: localhost:8000
+
+########################################
+# USERS
+########################################
+
+### @name getUsers
+GET /users HTTP/1.1
+Host: localhost:8100
+
+########################################
+# CONFIG-SERVER
+########################################
+
+### @name courses
+GET /courses/default HTTP/1.1
+Host: localhost:8888
+
+### @name users
+GET /users/default HTTP/1.1
+Host: localhost:8888

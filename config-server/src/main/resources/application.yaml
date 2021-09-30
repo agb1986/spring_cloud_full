@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+          uri: file:///C:\workspace\git_hub\spring_cloud_full\config\
+          default-label: master
+
+server:
+  port: 8888
